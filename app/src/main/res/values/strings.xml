@@ -32,6 +32,9 @@
     <string name="q5">在我国，三教合一指的是哪三个宗教？</string>
     <string name="q6">“默品其滋味，相思泪沾巾”描写的是哪种食品？</string>
     <string name="q7">中国的省、自治区、直辖市加起来共有多少个？</string>
+    <string name="q8">李煜词《虞美人·春花秋月何时了》，为其绝命之词，后主创作此词的时间是？</string>
+    <string name="q9">道家思想在我国影响深远，请问历史中的哪一时期最接近道家所主张的无为而治？</string>
+    <string name="q10">下列哪些是北京的别称？</string>
 
     <string name="q1_option1">纪传体通史</string>
     <string name="q1_option2">编年史</string>
@@ -94,5 +97,34 @@
 
     <string name="q7_answer">34</string>
 
+    <string name="q8_option1">3月3日</string>
+    <string name="q8_option2">7月7日</string>
+    <string name="q8_option3">9月9日</string>
+    <array name="q8_options">
+        <item>@string/q8_option1</item>
+        <item>@string/q8_option2</item>
+        <item>@string/q8_option3</item>
+    </array>
 
+    <string name="q9_option1">文景之治</string>
+    <string name="q9_option2">光武中兴</string>
+    <string name="q9_option3">贞观之治</string>
+    <string name="q9_option4">康乾盛世</string>
+    <array name="q9_options">
+        <item>@string/q9_option1</item>
+        <item>@string/q9_option2</item>
+        <item>@string/q9_option3</item>
+        <item>@string/q9_option4</item>
+    </array>
+
+    <string name="q10_option1">燕京</string>
+    <string name="q10_option2">大都</string>
+    <string name="q10_option3">北平</string>
+    <string name="q10_option4">西京</string>
+    <array name="q10_options">
+        <item>@string/q10_option1</item>
+        <item>@string/q10_option2</item>
+        <item>@string/q10_option3</item>
+        <item>@string/q10_option4</item>
+    </array>
 </resources>

@@ -37,6 +37,15 @@ public class QuestionSet {
         Question question7 = new Question(context.getString(R.string.q7), Options.EDITTEXT, context.getString(R.string.q7_answer));
         questions.add(question7);
 
+        Question question8 = new Question(context.getString(R.string.q8), RADIOBUTTON, context.getResources().getStringArray(R.array.q8_options), Collections.singletonList(1));
+        questions.add(question8);
+
+        Question question9 = new Question(context.getString(R.string.q9), RADIOBUTTON, context.getResources().getStringArray(R.array.q9_options), Collections.singletonList(0));
+        questions.add(question9);
+
+        Question question10 = new Question(context.getString(R.string.q10), CHECKBOX, context.getResources().getStringArray(R.array.q10_options), Arrays.asList(0, 2, 3));
+        questions.add(question10);
+
         return questions;
     }
 }
