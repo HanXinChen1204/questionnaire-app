@@ -9,8 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dimen_150dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/gradient_background"
-        android:alpha="0.9"/>
+        android:alpha="0.6"/>
 
     <ImageView
         android:layout_width="@dimen/dimen_150dp"
@@ -22,7 +21,7 @@
         android:layout_marginStart="@dimen/dimen_8dp"
         android:layout_marginTop="@dimen/dimen_8dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/quizdroid_logo"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="@+id/bg_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +37,6 @@
         android:paddingStart="@dimen/dimen_24dp"
         android:paddingTop="@dimen/dimen_24dp"
         android:text="@string/instructions"
-        android:textAlignment="center"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
