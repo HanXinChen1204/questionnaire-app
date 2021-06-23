@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Quizbrid</string>
-    <string name="question_one">What would make your friend happy?</string>
+    <string name="question_one">测试用测试用?</string>
     <string name="nextQuestion">下一题</string>
     <string name="editText_hint">请在此处输入你的答案</string>
     <string name="your_answer">你的答案：</string>
@@ -25,18 +25,18 @@
     <string name="confirm_yes">是的</string>
     <string name="confirm_cancel">再想想</string>
 
-    <string name="q1">Which famous person does Phoebe believe is her grandfather?</string>
-    <string name="q2">Who among the following belong to the Targaryen family?</string>
-    <string name="q3">What is Sheldon\'s middle name in The Big Bang Theory?</string>
-    <string name="q4">In the Television series Silicon Valley, what is Pied Piper?</string>
-    <string name="q5">Which of the following are the names of fictional characters from Dan Brown novels?</string>
-    <string name="q6">What color is \"The Incredible Hulk\"?</string>
-    <string name="q7">How many seasons are there in the TV series Breaking Bad?</string>
+    <string name="q1">《史记》是中国第一部什么体裁的史书？</string>
+    <string name="q2">以下哪三个是中国三大传统节日?</string>
+    <string name="q3">陆游名句“王师北定中原日”的下一句是？</string>
+    <string name="q4">耄耋之年指的是多少岁？</string>
+    <string name="q5">在我国，三教合一指的是哪三个宗教？</string>
+    <string name="q6">“默品其滋味，相思泪沾巾”描写的是哪种食品？</string>
+    <string name="q7">中国的省、自治区、直辖市加起来共有多少个？</string>
 
-    <string name="q1_option1">Albert Einstein</string>
-    <string name="q1_option2">Isaac Newton</string>
-    <string name="q1_option3">Winston Churchill</string>
-    <string name="q1_option4">Beethoven</string>
+    <string name="q1_option1">纪传体通史</string>
+    <string name="q1_option2">编年史</string>
+    <string name="q1_option3">国别史</string>
+    <string name="q1_option4">编年体通史</string>
     <array name="q1_options">
         <item>@string/q1_option1</item>
         <item>@string/q1_option2</item>
@@ -44,10 +44,10 @@
         <item>@string/q1_option4</item>
     </array>
 
-    <string name="q2_option1">Aemon</string>
-    <string name="q2_option2">Rhaegar</string>
-    <string name="q2_option3">Ned</string>
-    <string name="q2_option4">Robb</string>
+    <string name="q2_option1">春节</string>
+    <string name="q2_option2">端午节</string>
+    <string name="q2_option3">中秋节</string>
+    <string name="q2_option4">元宵节</string>
     <array name="q2_options">
         <item>@string/q2_option1</item>
         <item>@string/q2_option2</item>
@@ -55,14 +55,13 @@
         <item>@string/q2_option4</item>
     </array>
 
+    <string name="q3_answer">家祭无忘告乃翁</string>
 
-    <string name="q3_answer">Lee</string>
-
-    <string name="q4_option1">A book</string>
-    <string name="q4_option2">A scary story</string>
-    <string name="q4_option3">A song</string>
-    <string name="q4_option4">A company</string>
-    <string name="q4_option5">A bank</string>
+    <string name="q4_option1">五六十岁</string>
+    <string name="q4_option2">六七十岁</string>
+    <string name="q4_option3">七八十岁</string>
+    <string name="q4_option4">八九十岁</string>
+    <string name="q4_option5">百岁</string>
     <array name="q4_options">
         <item>@string/q4_option1</item>
         <item>@string/q4_option2</item>
@@ -71,10 +70,10 @@
         <item>@string/q4_option5</item>
     </array>
 
-    <string name="q5_option1">Sophie Neveu</string>
-    <string name="q5_option2">Vittoria Vetra</string>
-    <string name="q5_option3">Nick Adams</string>
-    <string name="q5_option4">Robert Langdon</string>
+    <string name="q5_option1">佛教</string>
+    <string name="q5_option2">伊斯兰教</string>
+    <string name="q5_option3">儒教</string>
+    <string name="q5_option4">道教</string>
     <array name="q5_options">
         <item>@string/q5_option1</item>
         <item>@string/q5_option2</item>
@@ -82,10 +81,10 @@
         <item>@string/q5_option4</item>
     </array>
 
-    <string name="q6_option1">Purple</string>
-    <string name="q6_option2">Green</string>
-    <string name="q6_option3">Blue</string>
-    <string name="q6_option4">Grey</string>
+    <string name="q6_option1">月饼</string>
+    <string name="q6_option2">粽子</string>
+    <string name="q6_option3">红豆</string>
+    <string name="q6_option4">菱角</string>
     <array name="q6_options">
         <item>@string/q6_option1</item>
         <item>@string/q6_option2</item>
@@ -93,8 +92,7 @@
         <item>@string/q6_option4</item>
     </array>
 
-
-    <string name="q7_answer">5</string>
+    <string name="q7_answer">34</string>
 
 
 </resources>
